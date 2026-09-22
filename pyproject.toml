@@ -1,0 +1,16 @@
+[project]
+name = "challenge-tbot"
+version = "0.1.0"
+description = "Bot for mood tracking challenge"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "aiogram>=3.26.0",
+    "aiohttp-socks>=0.11.0",
+    "aiosqlite>=0.22.1",
+    "gspread>=6.2.1",
+    "loguru>=0.7.3",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.13.1",
+    "sqlmodel>=0.0.38",
+]
