@@ -16,7 +16,7 @@ Telegram-бот для ведения дневника эмоций.
 
 ```bash
 uv sync
-````
+```
 
 ## Настройка окружения
 
@@ -65,17 +65,3 @@ uv run python -m app.main
 ## Примечание
 
 SQLite-база создаётся локально в файле проекта.
-Для просмотра содержимого можно использовать `sqlite3`:
-
-```bash
-sqlite3 mood_bot.db
-```
-
-Пример команд внутри SQLite:
-
-```sql
-.tables
-SELECT * FROM mood_results;
-SELECT * FROM daily_questions;
-SELECT * FROM practices;
-```
